@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Bioinformatics Specific
+*.fastq
+*.fastq.gz
+*.fasta
+*.sam
+*.bam
+*.bai
+*.vcf
+*.html
+report.json
