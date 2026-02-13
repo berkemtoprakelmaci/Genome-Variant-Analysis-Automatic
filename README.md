@@ -18,10 +18,7 @@ Activate Environment:
 `conda activate analysis`
 Prepare Data: Place your `.fastq` or `.fastq.gz` files and your reference `.fasta` file in the same directory as the script.
 Must: Only one `.fasta` and only one `.fastq` or `.fastq.gz` file in same directory with bash
-project-folder/
-├── analysis_auto.sh
-├── reference_genome.fasta
-└── sample_data.fastq (or .fastq.gz)
+project-folder/ analysis_auto.sh  reference_genome.fasta  sample_data.fastq (or .fastq.gz)
 Run:
 `bash analysis_auto.sh`
 Maintainer: Berkem Toprak Elmacı/(https://github.com/berkemtoprakelmaci/)
