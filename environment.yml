@@ -1,0 +1,17 @@
+name: analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Ana Analiz Araçları
+  - fastqc=0.12.1
+  - fastp=1.1.0
+  - bwa=0.7.19
+  - samtools=1.23
+  - gatk4=4.6.2.0
+  
+  # Gerekli Alt Yapılar
+  - python=3.10
+  - openjdk=25.0.1  # GATK ve FastQC Java gerektirir
+  - htslib=1.23     # Samtools ile uyumlu olması için
